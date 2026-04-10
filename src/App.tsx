@@ -23,6 +23,7 @@ function App() {
       </nav>
         <Routes>
             <Route path="/" element={<Home /> } />
+            <Route path="/home" element={<Home /> } />
             <Route path="/original" element={<Original /> } />
             <Route path="/favoritos" element={<Favoritos /> } />
             <Route path="/informativa" element={<Informativa /> } />
